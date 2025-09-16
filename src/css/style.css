@@ -1,0 +1,120 @@
+:root {
+  font-family: "Alice";
+  line-height: 150%;
+}
+
+body {
+  background-image: url(../img/bg-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #573824;
+}
+
+#page {
+  background-color: #F0E8C2;
+  width: 800px;
+  margin: 24px auto 28px auto;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+#main-photo {
+  margin-bottom: 24px;
+}
+
+#about #info {
+  text-align: justify;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 0 48px 0 48px;
+}
+
+#preparation p {
+  margin: 8px 0 16px 0;
+}
+
+h1, h2, h3, h4{
+  margin: 16px auto 8px auto;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 140%;
+  font-weight: 400;
+  color: #291B1A; 
+}
+
+h2 {
+  font-size: 24px;
+  color: #573A37;
+}
+
+#info {
+  margin-bottom: 12px;
+}
+
+ul, ol {
+  padding-left: 24px;
+}
+
+ol li, ul li {
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 150%;
+}
+
+.variations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.variation {
+  text-align: center;
+  background-color: rgba(87, 56, 36, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.nutrition-info {
+  display: flex;
+  justify-content: space-around;
+  background-color: #573a371a;;
+  padding: 20px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.nutrition-item {
+  text-align: center;
+  margin: 8px;
+}
+
+.nutrition-item .label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.nutrition-item .value {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #573A37; 
+  margin-bottom: 16px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 48px;
+  color: #F0E8C2;
+}
