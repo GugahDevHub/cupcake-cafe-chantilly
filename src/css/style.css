@@ -118,3 +118,15 @@ footer {
   margin-bottom: 48px;
   color: #F0E8C2;
 }
+
+/*Responsive*/
+
+@media (max-width: 600px) {
+  .nutrition-info {
+    flex-direction: column;
+  }
+
+  .variations-grid {
+    grid-template-columns: 1fr;
+  }
+}
